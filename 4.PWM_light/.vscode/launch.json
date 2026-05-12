@@ -1,0 +1,16 @@
+{
+ "version": "0.2.0",
+ "configurations": [
+  {
+   "name": "DAPLink调试",
+   "type": "cortex-debug",
+   "request": "launch",
+   "servertype": "pyocd",
+   "interface": "swd",
+   "executable": "MDK-ARM\\pwm_light\\pwm_light.axf",
+   "device": "STM32F407IGHx",
+   "preLaunchTask": "DAPLink烧录",
+   "runToEntryPoint": "main"
+  }
+ ]
+}

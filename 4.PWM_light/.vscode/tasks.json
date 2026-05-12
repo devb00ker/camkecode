@@ -1,0 +1,15 @@
+{
+ "version": "2.0.0",
+ "tasks": [
+  {
+   "label": "DAPLink烧录",
+   "type": "shell",
+   "command": "pyocd flash",
+   "args": [
+    "MDK-ARM\\pwm_light\\pwm_light.axf",
+    "-t", "STM32F407IGHx"
+   ],
+   "problemMatcher": []
+  }
+ ]
+}
